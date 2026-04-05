@@ -1,0 +1,29 @@
+body {
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    padding: 0 10px;
+}
+
+input {
+    padding: 8px;
+    width: 70%;
+}
+
+button {
+    padding: 8px;
+    width: calc(30%-16px);
+}
+
+#results {
+    margin: 20px;
+}
+
+.repo {
+    padding: 10px 0;
+    & a {
+        font-weight: bold;
+    }
+}
